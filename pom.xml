@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.himorithm</groupId>
+    <artifactId>apache-ignite-client</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>apache-ignite-client</name>
+    <packaging>pom</packaging>
+    <description>Demo project for Spring Boot</description>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <modules>
+        <module>ignite-simple-client</module>
+        <module>ignite-spring-data-client</module>
+        <module>ignite-jdbc-client</module>
+    </modules>
+</project>

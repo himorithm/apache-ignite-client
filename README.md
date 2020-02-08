@@ -1,9 +1,15 @@
-# Read Me First
-The following was discovered as part of building this project:
+# Apache Ignite Client using Spring Boot
+Demonstrate various methods to connect Apache Ignite Cluster in Spring Boot Application .
 
 * Need Working Ignite Cluster on Local to Run the Client 
+* Connect using JDBC Thin Client
+* Connect using Apache Client Mode.
+* Connect using Ignite Spring Data Repositories.
 
 # Getting Started
+* Start Apache Ignite Cluster [Apache Ignite Cluster with Spring Boot](https://github.com/himorithm/apache-ignite-cluster)
+* Run Any of the Ignite Client to connect the cluster. 
+
 
 ### Reference Documentation
 For further reference, please consider the following sections:
